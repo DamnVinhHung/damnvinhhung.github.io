@@ -2,9 +2,9 @@
 
 .search {
   min-width: fit-content;
-  max-width: 14rem;
-  @media all and ($mobile) {
-    flex-grow: 0.3;
+  @media ($mobile) {
+    flex-grow: 1;
+    margin: 0 1rem;
   }
 
   & > .search-button {
