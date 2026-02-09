@@ -19,7 +19,7 @@ export const customLeftLayout = [
   Component.Flex({
     components: [
       { Component: Component.Darkmode() },
-      { Component: Component.ReaderMode() },
+      { Component: Component.DesktopOnly(Component.ReaderMode()) },
     ],
   }),
   Component.Explorer(),
