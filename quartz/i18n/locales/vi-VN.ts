@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} phút đọc`,
     },
+    spanContent: {
+      title: "Kéo dài nội dung"
+    }
   },
   pages: {
     rss: {
