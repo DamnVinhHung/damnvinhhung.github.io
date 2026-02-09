@@ -6,7 +6,11 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer(),
+  footer: Component.Footer({
+    links: {
+      GitHub: "https://github.com/cachiusa/post",
+    },
+  }),
 }
 
 export const customLeftLayout = [
