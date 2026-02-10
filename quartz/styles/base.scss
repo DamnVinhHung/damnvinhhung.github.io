@@ -186,6 +186,10 @@ a {
     p > strong {
       color: var(--dark);
     }
+
+    a {
+      text-decoration: underline;
+    }
   }
 
   & > #quartz-body {
