@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "vi-VN",
-    baseUrl: "damnvinhhung.github.io/ww1",
+    baseUrl: "damnvinhhung.github.io/ww3",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
