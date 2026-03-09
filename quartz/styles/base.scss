@@ -531,10 +531,15 @@ p {
     th,
     td {
       min-width: 75px;
+      border: 1px solid var(--lightgray);
     }
 
     & > * {
       line-height: 2rem;
+    }
+
+    tr:nth-child(2n) {
+      background-color: var(--lightgray);
     }
   }
 }
@@ -542,18 +547,10 @@ p {
 th {
   text-align: left;
   padding: 0.4rem 0.7rem;
-  border-bottom: 2px solid var(--gray);
 }
 
 td {
   padding: 0.2rem 0.7rem;
-}
-
-tr {
-  border-bottom: 1px solid var(--lightgray);
-  &:last-child {
-    border-bottom: none;
-  }
 }
 
 img {
