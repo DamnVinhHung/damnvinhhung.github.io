@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "cachiusa",
+    pageTitle: "Baklava",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "vi-VN",
-    baseUrl: "cachiusa.github.io/post",
+    baseUrl: "damnvinhhung.github.io/ww1",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
