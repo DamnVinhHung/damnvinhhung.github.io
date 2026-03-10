@@ -530,16 +530,20 @@ p {
 
     th,
     td {
-      min-width: 75px;
+      // min-width: 75px;
       border: 1px solid var(--lightgray);
     }
 
     & > * {
-      line-height: 2rem;
+      line-height: 1.8rem;
     }
 
     tr:nth-child(2n) {
-      background-color: var(--lightgray);
+      background-color: var(--halfgray);
+    }
+
+    th {
+      font-size: 0.9rem;
     }
   }
 }
