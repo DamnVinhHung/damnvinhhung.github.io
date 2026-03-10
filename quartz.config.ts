@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    locale: "vi-VN",
+    locale: "en-US",
     baseUrl: "damnvinhhung.github.io/ww3",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",

@@ -59,6 +59,9 @@ export default {
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
     },
+    spanContent: {
+      title: "Expand content width"
+    },
   },
   pages: {
     rss: {
