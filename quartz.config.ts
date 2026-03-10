@@ -21,8 +21,8 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "InterVariable",
+        body: "InterVariable",
         code: "IBM Plex Mono",
       },
       colors: {
