@@ -368,6 +368,7 @@ thead {
   color: var(--dark);
   font-weight: revert;
   margin-bottom: 0;
+  overflow-wrap: break-word;
 
   article > & > a[role="anchor"] {
     color: var(--dark);
